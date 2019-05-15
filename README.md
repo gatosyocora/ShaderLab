@@ -17,4 +17,4 @@ http://foxcodex.html.xdomain.jp/index.html で紹介されているものをシ�
 * StandardWall.shader : メッシュが内側からだけ見えて下からメッシュが出現するような演出ができるStandardシェーダー
 * TextureCullOffAlphaOff.shader : 透過部分を持つTextureを両面貼りで使いたいときのためのStandardシェーダー
 * VisibleByDistance.shader : 距離によって透明から現れたり, Disolveで現れたりするUnlitシェーダー
-* VisibleByDistanceStandard.shader : 距離によって透明から現れたり, Disolveで現れたりするStandardシェーダー
+* VisibleByDistanceStandard0.shader : 距離によって透明から現れたり, Disolveで現れたりするStandardシェーダー
