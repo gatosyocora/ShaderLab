@@ -1,12 +1,13 @@
 ﻿Shader "Unlit/MosaicFaceShader"
 {
+	// VRChatでの利用を想定
 	// https://qiita.com/niusounds/items/2ed90d4fd74a167efd54
 	Properties
 	{
-		_MirrorTex ("Mirror Texture", 2D) = "white" {}
-		_LocalTex ("Local Texture", 2D) = "white" {}
+		_MirrorTex ("Mirror Texture", 2D) = "white" {} // MirrorReflectionレイヤーのみを表示するカメラのRenderTexture
+		_LocalTex ("Local Texture", 2D) = "white" {} // PlayerLocalレイヤーのみを表示するカメラのRenderTexture
 		_BgTex ("BackGround Texture", 2D) = "white" {}
-		_TexSize ("Tex Size", Float) = 512
+		_TexSize ("Tex Size", Float) = 512 // RenderTextureの縦横のサイズ
 		_BlockSize ("Block Size", Float) = 8
 	}
 	SubShader
